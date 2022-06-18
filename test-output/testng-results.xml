@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7063" started-at="2022-06-18T02:14:05 IST" finished-at="2022-06-18T02:14:12 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@17d0685f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="7063" started-at="2022-06-18T02:14:05 IST" finished-at="2022-06-18T02:14:12 IST">
+      <class name="com.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.TestRunner@17d0685f]" name="setUpClass" is-config="true" duration-ms="844" started-at="2022-06-18T02:14:05 IST" finished-at="2022-06-18T02:14:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@244418a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@17d0685f]" name="runScenario" duration-ms="3247" started-at="2022-06-18T02:14:06 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-18T02:14:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make a new post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create a new Post using /posts endpoint"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@17d0685f]" name="runScenario" duration-ms="563" started-at="2022-06-18T02:14:09 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-18T02:14:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make a new Post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create a new Post using /posts endpoint"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@17d0685f]" name="runScenario" duration-ms="947" started-at="2022-06-18T02:14:10 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-18T02:14:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the /users endpoint using a valid user ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate the Get Users API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@17d0685f]" name="runScenario" duration-ms="78" started-at="2022-06-18T02:14:11 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-18T02:14:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the /users endpoint using a valid username parameter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate the Get Users API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@17d0685f]" name="runScenario" duration-ms="141" started-at="2022-06-18T02:14:11 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-18T02:14:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the /users endpoint using a Invalid user ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate the Get Users API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@17d0685f]" name="runScenario" duration-ms="547" started-at="2022-06-18T02:14:11 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-18T02:14:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the Comment Feature."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create a Comment to the Existing Post using /comments endpoint"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@17d0685f]" name="runScenario" duration-ms="526" started-at="2022-06-18T02:14:12 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-18T02:14:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the Comment Feature."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create a Comment to the Existing Post using /comments endpoint"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.TestRunner@17d0685f]" name="tearDownClass" is-config="true" duration-ms="93" started-at="2022-06-18T02:14:12 IST" finished-at="2022-06-18T02:14:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
